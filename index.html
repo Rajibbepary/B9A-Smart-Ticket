@@ -277,7 +277,7 @@
       </h3>
       <div class="border-b-2 my-4 border-dashed"></div>
     <ul class="space-y-5" id="selected-seat">
-      <h3 class="text-3xl font-semibold text-error text-center">No Seat Booked</h3>
+      <h3 id="defuilt-text" class="text-3xl font-semibold text-error text-center">No Seat Booked</h3>
     </ul>
     <div class="border-b-2 my-4 border-solid"></div>
 
@@ -285,13 +285,13 @@
   <p>Total Praice</p>
   <p>
     <span>BDT:</span>
-    <span>****</span>
+    <span id="total-price">****</span>
   </p>
 </div>
 
 <div class=" flex items-center gap-2 border-y-2 py-2 my-2 border-dashed text-lg font-semibold justify-between">
- <input type="text" disabled class="input my-5 w-full input-primary border-primary" placeholder="have a coupon?">
- <button class="btn bg-primary" disabled>Apply</button> 
+ <input id="coupon-filed" type="text" disabled class="input my-5 w-full input-primary border-primary" placeholder="have a coupon?">
+ <button id="coupon-btn" class="btn bg-primary" disabled>Apply</button> 
 </div>
 <div class="text-lg font-semibold flex justify-between"></div>
   <p>Grand Praice</p>
